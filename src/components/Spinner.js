@@ -53,7 +53,7 @@ const toggleSpinner = () => {
       <h2>Spinner</h2>
         {spinnerOn && <div id='spinner' className='spinner'>--+--</div>}
       <button id='toggleSpinner' onClick={toggleSpinner}>
-      {spinnerOn ? 'Hide Spinner' : 'Show Spinner'}</button>
+      {spinnerOn ? 'Hide' : 'Show'} Spinner</button>
     </div>
   );
 }
